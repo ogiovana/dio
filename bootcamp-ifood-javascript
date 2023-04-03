@@ -1,0 +1,22 @@
+# Exercício da  primeira aula - Variáveis e Operadores:
+
+Faça um programa para calcular o valor 
+de uma viagem.
+
+você terá três variaveis sendo elas:
+
+preço do combustivel;
+valor médio gasto pelo carro;
+distancia em KM da viagem;
+
+imprima no console o valor que será gasto em combustivel para realizar a viagem.
+
+const precoCombustivel = 5.79;
+const KMporLitros = 20;
+const distanciaEmKm = 300;
+
+const litrosConsumidos = distanciaEmKm / KMporLitros;
+
+const valorgastos = litrosConsumidos * precoCombustivel;
+
+console.log(valorgastos.toFixed(2));
